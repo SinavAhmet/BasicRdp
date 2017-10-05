@@ -1,8 +1,9 @@
 # BasicRdp
-Connect with rdp basically with user name and password.
+Connect with rdp basically with user name,password,server and name.
 Create new vcl form application and add jwaWinCrypt to your unit.
 Sample usage:
 
+procedure CnnRdp(user,pass,srv,dmn:String);
 var
   s : String;
   cmd : PAnsiChar;
@@ -41,3 +42,4 @@ begin
   s := ExtractFilePath(ParamStr(0))+'a.rdp';
   ShellExecute(0,'open','mstsc.exe',PWideChar(s),nil,SW_SHOWNORMAL);
  // WinExec(cmd,SW_SHOWNORMAL);
+End;
