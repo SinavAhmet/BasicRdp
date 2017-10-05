@@ -1,11 +1,11 @@
 # BasicRdp<br>
 Connect with rdp basically with user name,password,server and name.<br>
-Create new vcl form application and add jwaWinCrypt to your unit.
-Sample usage:
-
-function CryptRDPPassword(sPassword: string): string;
-var DataIn: DATA_BLOB;
-    DataOut: DATA_BLOB;
+Create new vcl form application and add jwaWinCrypt to your unit.<br>
+Sample usage:<br>
+<br>
+function CryptRDPPassword(sPassword: string): string;<br>
+var DataIn: DATA_BLOB;<br>
+    DataOut: DATA_BLOB;<br>
     pwDescription: PWideChar;
     PwdHash: string;
 begin
