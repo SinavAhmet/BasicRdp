@@ -56,7 +56,7 @@ unit JwaWinNT;
 {$HPPEMIT ''}
 
 {$IFNDEF JWA_OMIT_SECTIONS}
-{$I ..\JediAPILib.inc}
+{$I ..\Includes\JediAPILib.inc}
 
 interface
 
